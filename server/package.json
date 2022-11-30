@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "14.16.1",
+  "description": "creating a photo blog website",
+  "main": "app.js",
+  "engines": {
+    "node": "16.15.1",
+    "npm": "8.12.1"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahul Singhal",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.0.0",
+    "mongoose": "^5.13.3",
+    "nodemailer": "^6.6.3",
+    "nodemailer-sendgrid-transport": "^0.2.0"
+  }
+}
